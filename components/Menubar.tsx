@@ -1,10 +1,8 @@
 "use client";
-import { findoption } from "@/state/atom";
 import Image from "next/image";
 import { useRouter } from "next/navigation";
-import { useRecoilState } from "recoil";
 
-export default function Menubar({option , setoption} : {option : boolean, setoption : any }){
+export default function Menubar({option , setoption} : {option : boolean, setoption: React.Dispatch<React.SetStateAction<boolean>>}){
     const router = useRouter();
     return (
         <div className="h-full flex justify-between">
