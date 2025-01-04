@@ -10,7 +10,7 @@ export default function Hero(){
                     left: 0,
                     right: 0,
                     bottom: 0,
-                    // backgroundImage: "url('/nitpatna.jpg')",
+                    backgroundImage: "url('/nitpatna.jpg')",
                     backgroundPosition: "center",
                     backgroundRepeat: "no-repeat",
                     backgroundSize: "cover",
