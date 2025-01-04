@@ -18,12 +18,14 @@ export default function Hero(){
                     backgroundBlendMode: "darken",
                     zIndex: -1,
                 }}></div>
-                <div style={{opacity: 1}} className="w-full flex justify-center font-bold text-3xl text-purple-500">International Conference on</div>
-                <div className="w-full flex justify-center font-bold text-3xl mt-20">Innovations and Sustainability in Civil Engineering:</div>
-                <div className="w-full flex justify-center font-bold text-3xl mt-8">Shaping Tomorrow&apos;s Infrastructure</div>
-                <div className="w-full flex justify-center font-bold text-3xl mt-8">At</div>
-                <div className="w-full flex justify-center font-bold text-3xl mt-8">NIT Patna, Ashok Rajpath, Bihar, India - 800005</div>
-                <div className="w-full flex justify-center font-bold text-3xl mt-8">14 - 16 May 2025</div>
+                <div className="text-3xl max-md:text-2xl max-sm:text-[15px]">
+                    <div style={{opacity: 1}} className="w-full flex justify-center font-bold text-purple-500">International Conference on</div>
+                    <div className="w-full flex justify-center font-bold mt-20">Innovations and Sustainability in Civil Engineering:</div>
+                    <div className="w-full flex justify-center font-bold mt-8">Shaping Tomorrow&apos;s Infrastructure</div>
+                    <div className="w-full flex justify-center font-bold mt-8">At</div>
+                    <div className="w-full flex justify-center font-bold mt-8">NIT Patna, Ashok Rajpath, Bihar, India - 800005</div>
+                    <div className="w-full flex justify-center font-bold mt-8">14 - 16 May 2025</div>
+                </div>
             </div>
             <div className="h-2 bg-yellow-400"></div>
         </div>

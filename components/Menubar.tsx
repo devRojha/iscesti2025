@@ -1,6 +1,11 @@
+"use client";
+import { findoption } from "@/state/atom";
 import Image from "next/image";
+import { useRouter } from "next/navigation";
+import { useRecoilState } from "recoil";
 
-export default function Menubar(){
+export default function Menubar({option , setoption} : {option : boolean, setoption : any }){
+    const router = useRouter();
     return (
         <div className="h-full flex justify-between">
             <div className="flex">
@@ -11,25 +16,33 @@ export default function Menubar(){
                     ISCESTI-2025
                 </div>
             </div>
-            <div className="flex">
-                <div className="h-full mr-10 font-bold text-white flex flex-col justify-center">
-                    <button className=" hover:border-b-4 border-yellow-500 py-4">Home</button>
+            <div className="flex space-x-10 pr-4 font-bold max-lg:space-x-4 max-md:hidden">
+                <div className="h-full text-white flex flex-col justify-center">
+                    <button onClick={()=>router.push("/")} className=" hover:border-b-4 border-yellow-500 py-4">Home</button>
                 </div>
-                <div className="h-full mr-10 font-bold text-white flex flex-col justify-center">
+                <div className="h-full text-white flex flex-col justify-center">
                     <button className=" hover:border-b-4 border-yellow-500 py-4">Committies</button>
                 </div>
-                <div className="h-full mr-10 font-bold text-white flex flex-col justify-center">
+                <div className="h-full text-white flex flex-col justify-center">
                     <button className=" hover:border-b-4 border-yellow-500 py-4">Author&apos;s Corner</button>
                 </div>
-                <div className="h-full mr-10 font-bold text-white flex flex-col justify-center">
+                <div className="h-full text-white flex flex-col justify-center">
                     <button className=" hover:border-b-4 border-yellow-500 py-4">Speakers</button>
                 </div>
-                <div className="h-full mr-10 font-bold text-white flex flex-col justify-center">
+                <div className="h-full text-white flex flex-col justify-center">
                     <button className=" hover:border-b-4 border-yellow-500 py-4">Venue</button>
                 </div>
-                <div className="h-full mr-10 font-bold text-white flex flex-col justify-center">
-                    <button className=" hover:border-b-4 border-yellow-500 py-4">Contact</button>
+                <div className="h-full text-white flex flex-col justify-center">
+                    <button onClick={()=>router.push("#footer")} className=" hover:border-b-4 border-yellow-500 py-4">Contact</button>
                 </div>
+            </div>
+            <div className="hidden max-md:flex pr-6 flex-col justify-center">
+                <button onClick={()=>(setoption(false))} className={`${(option)? "flex" : "hidden"}`}>
+                    <Image src={"/menu.png"} alt="loading" height={30} width={30}/>
+                </button>
+                <button onClick={()=>(setoption(true))} className={`${(option == false)? "flex" : "hidden"}`}>
+                    <Image src={"/close.png"} alt="loading" height={30} width={30}/>
+                </button>
             </div>
         </div>
     )
