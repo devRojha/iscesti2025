@@ -15,7 +15,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "ISCESIT-2025",
+  title: "ISCESTI-2025",
   description: "International Conference on Innovations and Sustainability in Civil Engineering: Shaping Tomorrow's Infrastructure",
 };
 
