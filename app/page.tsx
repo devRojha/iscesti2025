@@ -1,16 +1,17 @@
 import Hero from "@/components/Hero";
+import Image from "next/image";
 
 
 export default function Home() {
   return (
     <div className="">
-      <div className="h-screen">
         <Hero />
+      <div className="h-40 bg-white">
       </div>
       {/* about  */}
-      <div className="grid grid-cols-2 max-lg:px-6 max-sm:grid-cols-1 border px-20 max-sm:px-4 bg-zinc-100 py-20 space-x-4 max-sm:space-x-0 max-sm:space-y-4 text-black">
-        <div className="border px-4 py-6 shadow-lg rounded-lg text-sm font-serif bg-white">
-          Loading...
+      <div className="grid grid-cols-2 max-lg:px-6 max-lg:grid-cols-1 border px-20 max-sm:px-4 bg-zinc-100 py-20 space-x-4 max-lg:space-x-0 max-lg:space-y-4 text-black">
+        <div className="max-lg:mb-4">
+         <Image className="shadow-lg rounded-md" src={"/Temp.jpg"} alt="Loading..." height={1000} width={1000}/>
         </div>
         <div className="border px-4 py-6 shadow-lg rounded-lg text-sm font-serif bg-white">
           <div className="text-4xl max-sm:text-2xl max-lg:text-2xl font-bold mb-8">About Conference</div>

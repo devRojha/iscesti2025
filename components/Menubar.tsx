@@ -19,16 +19,16 @@ export default function Menubar({option , setoption} : {option : boolean, setopt
                     <button onClick={()=>router.push("/")} className=" hover:border-b-4 border-yellow-500 py-4">Home</button>
                 </div>
                 <div className="h-full text-white flex flex-col justify-center">
-                    <button className=" hover:border-b-4 border-yellow-500 py-4">Committies</button>
+                    <button onClick={()=>router.push("/Committee")} className=" hover:border-b-4 border-yellow-500 py-4">Committies</button>
                 </div>
                 <div className="h-full text-white flex flex-col justify-center">
-                    <button className=" hover:border-b-4 border-yellow-500 py-4">Author&apos;s Corner</button>
+                    <button onClick={()=>router.push("/Author")} className=" hover:border-b-4 border-yellow-500 py-4">Author&apos;s Corner</button>
                 </div>
                 <div className="h-full text-white flex flex-col justify-center">
                     <button className=" hover:border-b-4 border-yellow-500 py-4">Speakers</button>
                 </div>
                 <div className="h-full text-white flex flex-col justify-center">
-                    <button className=" hover:border-b-4 border-yellow-500 py-4">Venue</button>
+                    <button onClick={()=>router.push("/Venue")} className=" hover:border-b-4 border-yellow-500 py-4">Venue</button>
                 </div>
                 <div className="h-full text-white flex flex-col justify-center">
                     <button onClick={()=>router.push("#footer")} className=" hover:border-b-4 border-yellow-500 py-4">Contact</button>
