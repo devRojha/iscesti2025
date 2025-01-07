@@ -102,6 +102,26 @@ export default function Author() {
                     <div className="border border-black px-2 py-1">IDIB000B810</div>
                 </div>
             </div>
+
+            <div className="text-2xl font-bold text-red-900 text-center">Themes</div>
+            <div className="w-[80%]  mt-4 mb-20">
+                <ul className="list-disc space-y-2">
+                    <li className="pt-2">Geotechnical and Geo-environmental Engineering.</li>
+                    <li>Soil dynamics and Earthquake Engineering</li>
+                    <li>Rock mechanics, Tunneling and Underground structures</li>
+                    <li>Innovations aimed at reducing water, solid waste, air and noise pollution and monitoring environmental pollutants</li>
+                    <li>Technologies and approaches for reducing improving recycling processes and waste, promoting a circular economy</li>
+                    <li>Engineering strategies for preserving ecosystems, managing natural habitats and supporting biodiversity</li>
+                    <li>New technologies in structural design and construction</li>
+                    <li>Computational mechanics/Numerical modeling and simulation based techniques in the field of Structural Engineering</li>
+                    <li>Traffic and pedestrian operation, management and safety</li>
+                    <li>Transportation planning, design, policy and practices, demand modelling, transportation economics</li>
+                    <li>Pavement design, management, alternative low cost pavement materials.</li>
+                    <li>Urban and watershed water management, climate change</li>
+                    <li>Hydraulic and hydrological modelling, and innovation</li>
+                    <li>Al and ML in Civil Engineering</li>
+                </ul>
+            </div>
         </div>
 
     </div>

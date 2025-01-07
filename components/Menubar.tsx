@@ -11,7 +11,7 @@ export default function Menubar({option , setoption} : {option : boolean, setopt
                     <Image className=" rounded-full h-14 w-14" src={"/logo.png"} alt="Loading..." height={100} width={100}/>
                 </div>
                 <div className="h-full ml-4 font-bold text-white flex flex-col justify-center">
-                    ISCESTI-2025
+                    <button onClick={()=>router.push("/")}>ISCESTI-2025</button>
                 </div>
             </div>
             <div className="flex space-x-10 pr-4 font-bold max-lg:space-x-4 max-md:hidden">
