@@ -6,7 +6,7 @@ export default function Committee() {
     const [resion , setResion] = useState(true);
   return (
     <div className="py-20 bg-orange-100 pt-10">
-        <div className=" mx-10  text-red-900 font-bold text-4xl">Technical Advisory Committee</div>
+        <div className=" mx-10  text-red-900 font-bold text-4xl max-sm:text-[22px]">Technical Advisory Committee</div>
         {/* button  */}
         <div className="mx-10 my-4 flex space-x-3 h-10 font-bold">
             <button onClick={()=>setResion(true)} className={`hover:bg-red-700 ${(resion)?"bg-red-900 text-white":"text-black"} border px-2  rounded-md border-black`}>National</button>

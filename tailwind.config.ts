@@ -12,6 +12,15 @@ export default {
         background: "var(--background)",
         foreground: "var(--foreground)",
       },
+      keyframes: {
+        slide: {
+          "0%": { transform: "translateX(1200px)" },
+          "100%": { transform: "translateX(-200px)" },
+        },
+      },
+      animation: {
+        slide: "slide 10s linear infinite",
+      },
     },
   },
   plugins: [],

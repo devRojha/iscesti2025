@@ -12,8 +12,8 @@ export default function Sidebar({ option }: SidebarProps) {
   return (
     <div>
       <div className={`${option ? "right-[-400px]" : "right-0"} top-10 w-[260px] rounded-b-lg border-b border-2xl bg-gray-700 z-20 fixed transition-all duration-500 ease-linear`}>
-            <div className="flex flex-col space-y-10 pl-8 font-bold pt-10">
-                <div className=" ">
+            <div className="flex flex-col space-y-10 pl-8 font-bold pt-10 text-white">
+                <div className="">
                     <button onClick={()=>router.push("/")} className="py-4">Home</button>
                 </div>
                 <div className=" ">
@@ -37,7 +37,7 @@ export default function Sidebar({ option }: SidebarProps) {
                     <Image className=" rounded-full h-14 w-14" src={"/logo.png"} alt="Loading..." height={100} width={100}/>
                 </div>
                 <div className="ml-4 font-bold text-white flex flex-col justify-center">
-                    ISCESTI-2025
+                    <button onClick={()=>router.push("/")}>ISCESTI-2025</button>
                 </div>
             </div>
       </div>
