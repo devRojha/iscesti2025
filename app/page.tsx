@@ -22,9 +22,29 @@ export default function Home() {
         </div>
         <div className="border px-4 py-6 shadow-lg rounded-lg text-sm font-serif bg-white">
           <div className="text-4xl max-sm:text-2xl max-lg:text-2xl font-bold mb-8">About Conference</div>
-          <p className="text-justify">The Seventh International Conference on Computational Intelligence in Communications and Business Analytics (CICBA 2025) aims to carry together researchers, engineers, developers, and practitioners from academia and industry to share their experiences, and exchange and synthesize their ideas. CICBA 2025 will be organized by the Department of Information Technology, Jadavpur University, Kolkata during July 4-6, 2025. CICBA 2017 and CICBA 2018 were organized by Calcutta Business School, Kolkata, and Kalyani Government Engineering College, Kalyani, respectively. The first two series of this international conference were organized in association with the Computer Society of India. The third conference of this series was organized in 2021 by the Department of Computer & System Sciences, Visva-Bharati University. The fourth international conference of this series was organized in 2022 by the Department of Computer Science and Engineering, Assam University. The fifth and sixth series of the conference was organized in 2023 and 2024 by Kalyani Govt. Engg. College and National Institute of Technology, Patna, respectively. All these previous series of this conference constituted a collection of high-quality peer-reviewed research papers received from all over the world. The chairs and co-chairs of different committees consisted of international academic and industrial luminaries, and the Technical Program Committee comprised of technical experts, in all the series. </p>
-          <br></br>
-          <p className="text-justify">The proceedings publication partner in all the previous conferences was Springer Nature in CCIC series.</p>
+          <div className="overflow-y-auto">
+              <div className="h-[645px]">
+              <p className="text-justify">The International Conference on Innovations and Sustainability in Civil Engineering: Shaping Tomorrow’s Infrastructure sounds like an important event focused on advancing the field of civil engineering. It would likely bring together experts, researchers, engineers, and industry professionals to explore the latest innovations and sustainable practices in civil engineering. Such a conference could cover a wide range of topics, including:</p>
+              <br></br>
+              <p className="text-justify">Sustainable Infrastructure: Exploring how civil engineering can contribute to environmentally sustainable infrastructure, such as green buildings, energy-efficient transportation systems, and sustainable water management.</p>
+              <br></br>
+              <p className="text-justify">Smart Cities and Technology: Discussing the role of emerging technologies like IoT (Internet of Things), AI (Artificial Intelligence), and robotics in designing, constructing, and maintaining smart infrastructure that is efficient, adaptive, and connected.</p>
+              <br></br>
+              <p className="text-justify">Innovative Construction Materials and Techniques: Presenting new materials and techniques that enhance construction efficiency, durability, and sustainability. This could include advancements in low-carbon concrete, recyclable materials, 3D printing in construction, and modular construction.</p>
+              <br></br>
+              <p className="text-justify">Climate Change and Resilience: Addressing how civil engineering can adapt infrastructure to the challenges posed by climate change, such as rising sea levels, extreme weather events, and heat islands. This could involve designing more resilient buildings, roads, bridges, and other infrastructure.</p>
+              <br></br>
+              <p className="text-justify">Sustainable Transportation: Exploring advancements in transportation infrastructure that support sustainability, such as electric vehicles, public transit networks, and low-emission transportation systems.</p>
+              <br></br>
+              <p className="text-justify">Circular Economy in Civil Engineering: Introducing circular economy concepts in construction, where materials are reused, recycled, or repurposed, and waste is minimized.</p>
+              <br></br>
+              <p className="text-justify">Urbanization and Infrastructure Development: Discussing how to efficiently and sustainably meet the growing demand for urban infrastructure, including water, energy, and waste management systems.</p>
+              <br></br>
+              <p className="text-justify">Policy, Funding, and Global Cooperation: Exploring the role of policy and global cooperation in facilitating the transition to more sustainable infrastructure development, as well as examining new models for funding large-scale infrastructure projects.</p>
+              <br></br>
+              <p className="text-justify">If you're attending or interested in participating, it's likely that the conference would provide a platform for sharing research, best practices, and collaborations between academia, government, and industry to shape the future of civil engineering in a sustainable and innovative way.</p>
+            </div>
+          </div>
         </div>
       </div>
     </div>
