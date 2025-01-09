@@ -42,7 +42,7 @@ export default function Home() {
               <br></br>
               <p className="text-justify">Policy, Funding, and Global Cooperation: Exploring the role of policy and global cooperation in facilitating the transition to more sustainable infrastructure development, as well as examining new models for funding large-scale infrastructure projects.</p>
               <br></br>
-              <p className="text-justify">If you're attending or interested in participating, it's likely that the conference would provide a platform for sharing research, best practices, and collaborations between academia, government, and industry to shape the future of civil engineering in a sustainable and innovative way.</p>
+              <p className="text-justify">If you&apos;re attending or interested in participating, it&apos;s likely that the conference would provide a platform for sharing research, best practices, and collaborations between academia, government, and industry to shape the future of civil engineering in a sustainable and innovative way.</p>
             </div>
           </div>
         </div>
