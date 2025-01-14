@@ -1,6 +1,6 @@
 
 
-export default function(){
+export default function SlidingNotice(){
     return (
         <div className="h-40 max-sm:h-20 relative flex flex-col justify-center bg-orange-50 text-black overflow-hidden z-0">
             <div className="absolute animate-slide overflow-auto text-red-900 flex">

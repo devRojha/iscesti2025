@@ -3,7 +3,7 @@ import Image from "next/image";
 
 
 
-export default function(){
+export default function AboutConf(){
     return (
         <div className="grid grid-cols-2 max-lg:px-6 max-lg:grid-cols-1 border px-20 max-sm:px-4 bg-zinc-100 py-20 pt-10 space-x-4 max-lg:space-x-0 max-lg:space-y-4 text-black">
         <div className="max-lg:mb-4">

@@ -1,6 +1,6 @@
 import AboutConf from "@/components/AboutConf";
 import Hero from "@/components/Hero";
-import Notics from "@/components/Notics";
+import Notice from "@/components/Notice";
 import SlidingNotice from "@/components/SlidingNotice";
 
 export default function Home() {
@@ -8,7 +8,7 @@ export default function Home() {
     <div className="">
       <Hero />
       <SlidingNotice />
-      <Notics />
+      <Notice />
       {/* about  */}
       <AboutConf />
       

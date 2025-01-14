@@ -2,7 +2,7 @@
 
 import { useEffect, useState } from "react"
 
-export default function(){
+export default function Notice(){
     const [col, setCol] = useState(true)
     useEffect(()=>{
         const Tim = setInterval(()=>{
