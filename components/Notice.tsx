@@ -13,7 +13,7 @@ export default function Notice(){
         }
     },[col])
     return (
-        <div className="flex justify-center w-full p-4">
+        <div className="flex justify-center w-full p-4 bg-white text-black">
             <div className="shadow-lg border rounded-md w-[400px] overflow-h-auto">
             <div className="text-2xl font-bold text-center p-2">Notice</div>
             <div className="h-[350px]  p-1 pt-4">
