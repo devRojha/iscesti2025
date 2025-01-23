@@ -11,14 +11,14 @@ export default function Teams() {
             <div className="text-2xl font-bold text-black mb-8">Teams</div>
             
             {/* Chief Patron  */}
-            <div className="mb-20">
+            <div className="mb-20 max-sm:mb-0">
                 <div className="text-2xl font-bold text-red-900">Chief Patron</div>
 
-                <div className="grid grid-cols-3 max-sm:grid-cols-1 mt-4 mb-4 ">
+                <div className="grid grid-cols-3 max-sm:grid-cols-1 mt-4 mb-4">
                     <div className=" col-span-1">
                         <Image className="rounded-md h-[350px] w-[400px]" height={1000} width={1000} src={"/PK.jpg"} alt="Loading.."/>
                     </div>
-                    <div className=" col-span-2 flex justify-end pt-8">
+                    <div className=" col-span-2 flex justify-end pt-8 mx-sm:pt-0 mb-20">
                         <div className="w-[85%] flex flex-col max-sm:w-[100%]">
                             <div className="text-[20px] font-semibold">Prof. Pradip Kumar Jain</div>
                             <div className="text-[15px] font-serif text-orange-800">Director NITP</div>
@@ -29,14 +29,14 @@ export default function Teams() {
             </div>
 
             {/* Patron  */}
-            <div className="mb-20">
+            <div className="mb-20 max-sm:mb-0">
                 <div className="text-2xl font-bold text-red-900">Patron</div>
 
-                <div className="grid grid-cols-3 max-sm:grid-cols-1 mt-4 mb-4 ">
+                <div className="grid grid-cols-3 max-sm:grid-cols-1 mt-4 mb-4">
                     <div className=" col-span-1">
                         <Image className="rounded-md h-[350px] w-[350px]" height={1000} width={1000} src={"/Anshuman.png"} alt="Loading.."/>
                     </div>
-                    <div className=" col-span-2 flex justify-end pt-8">
+                    <div className=" col-span-2 flex justify-end pt-8 mx-sm:pt-0 mb-20">
                         <div className="w-[85%] flex flex-col max-sm:w-[100%]">
                             <div className="text-[20px] font-semibold">Prof. Anshuman Singh</div>
                             <div className="text-[15px] font-serif text-orange-800">HOD Civil NITP</div>
@@ -47,14 +47,14 @@ export default function Teams() {
             </div>
 
             {/* Organising Chairman  */}
-            <div className="mb-20">
+            <div className="mb-20 max-sm:mb-0">
                 <div className="text-2xl font-bold text-red-900">Organising Chairman</div>
 
-                <div className="grid grid-cols-3 max-sm:grid-cols-1 mt-4 mb-4 ">
+                <div className="grid grid-cols-3 max-sm:grid-cols-1 mt-4 mb-4">
                     <div className=" col-span-1">
                         <Image className="rounded-md h-[400px] w-[350px]" height={1000} width={1000} src={"/NS.png"} alt="Loading.."/>
                     </div>
-                    <div className=" col-span-2 flex justify-end pt-8">
+                    <div className=" col-span-2 flex justify-end pt-8 mx-sm:pt-0 mb-20">
                         <div className="w-[85%] flex flex-col max-sm:w-[100%]">
                             <div className="text-[20px] font-semibold">Prof. N.S. Maurya</div>
                             <div className="text-[15px] font-serif text-orange-800">Professor, Civil NITP</div>
@@ -63,11 +63,11 @@ export default function Teams() {
                     </div>
                 </div>
 
-                <div className="grid grid-cols-3 max-sm:grid-cols-1 mt-4 mb-2 ">
+                <div className="grid grid-cols-3 max-sm:grid-cols-1 mt-4 mb-2">
                     <div className=" col-span-1">
                         <Image className="rounded-md border h-[350px] w-[400px]" height={1000} width={1000} src={"/ss.png"} alt="Loading.."/>
                     </div>
-                    <div className=" col-span-2 flex justify-end pt-8">
+                    <div className=" col-span-2 flex justify-end pt-8 mx-sm:pt-0 mb-20">
                         <div className="w-[85%] flex flex-col max-sm:w-[100%]">
                             <div className="text-[20px] font-semibold">Dr. S. S. Kumar</div>
                             <div className="text-[15px] font-serif text-orange-800">Professor, Civil NITP</div>
@@ -76,11 +76,11 @@ export default function Teams() {
                     </div>
                 </div>
 
-                <div className="grid grid-cols-3 max-sm:grid-cols-1 mt-4 mb-2 ">
+                <div className="grid grid-cols-3 max-sm:grid-cols-1 mt-4 mb-2">
                     <div className=" col-span-1">
-                        <Image className="rounded-md border h-[350px] w-[400px]" height={1000} width={1000} src={"/Gyani.jpg"} alt="Loading.."/>
+                        <Image className="rounded-md border h-[350px] w-[400px]" height={1000} width={1000} src={"/AKSharma.png"} alt="Loading.."/>
                     </div>
-                    <div className=" col-span-2 flex justify-end pt-8">
+                    <div className=" col-span-2 flex justify-end pt-8 mx-sm:pt-0 mb-20">
                         <div className="w-[85%] flex flex-col max-sm:w-[100%]">
                             <div className="text-[20px] font-semibold">Dr. A. K. Sharma</div>
                             <div className="text-[15px] font-serif text-orange-800">Assistant Professor, Civil NITP</div>
@@ -91,14 +91,14 @@ export default function Teams() {
             </div>
 
             {/* Convener  */}
-            <div className="mb-20">
+            <div className="mb-20 max-sm:mb-0">
                 <div className="text-2xl font-bold text-red-900">Convener</div>
 
-                <div className="grid grid-cols-3 max-sm:grid-cols-1 mt-4 mb-4 ">
+                <div className="grid grid-cols-3 max-sm:grid-cols-1 mt-4 mb-4">
                     <div className=" col-span-1">
                         <Image className="rounded-md h-[350px] w-[400px]" height={1000} width={1000} src={"/Bhavani.jpg"} alt="Loading.."/>
                     </div>
-                    <div className=" col-span-2 flex justify-end pt-8">
+                    <div className=" col-span-2 flex justify-end pt-8 mx-sm:pt-0 mb-20">
                         <div className="w-[85%] flex flex-col max-sm:w-[100%]">
                             <div className="text-[20px] font-semibold">Dr. Bhabani Shankar Das</div>
                             <div className="text-[15px] font-serif text-orange-800">Assistant Professor, Civil NITP</div>
@@ -107,11 +107,11 @@ export default function Teams() {
                     </div>
                 </div>
 
-                <div className="grid grid-cols-3 max-sm:grid-cols-1 mt-4 mb-2 ">
+                <div className="grid grid-cols-3 max-sm:grid-cols-1 mt-4 mb-2">
                     <div className=" col-span-1">
                         <Image className="rounded-md border h-[350px] w-[400px]" height={1000} width={1000} src={"/Gyani.jpg"} alt="Loading.."/>
                     </div>
-                    <div className=" col-span-2 flex justify-end pt-8">
+                    <div className=" col-span-2 flex justify-end pt-8 mx-sm:pt-0 mb-20">
                         <div className="w-[85%] flex flex-col max-sm:w-[100%]">
                             <div className="text-[20px] font-semibold">Dr. Gyani Jail Singh</div>
                             <div className="text-[15px] font-serif text-orange-800">Assistant Professor, Civil NITP</div>
@@ -122,14 +122,14 @@ export default function Teams() {
             </div>
             
             {/* Secretaries  */}
-            <div className="mb-20">
+            <div className="mb-20 max-sm:mb-0">
                 <div className="text-2xl font-bold text-red-900">Orgenizing Secretaries</div>
                 
-                <div className="grid grid-cols-3 max-sm:grid-cols-1 mt-4 mb-2 ">
+                <div className="grid grid-cols-3 max-sm:grid-cols-1 mt-4 mb-2">
                     <div className=" col-span-1">
                         <Image className="rounded-md border h-[350px] w-[350px]" height={1000} width={1000} src={"/Govind.jpg"} alt="Loading.."/>
                     </div>
-                    <div className=" col-span-2 flex justify-end pt-8">
+                    <div className=" col-span-2 flex justify-end pt-8 mx-sm:pt-0 mb-20">
                         <div className="w-[85%] flex flex-col max-sm:w-[100%]">
                             <div className="text-[20px] font-semibold">Dr. Govind Mohan</div>
                             <div className="text-[15px] font-serif text-orange-800">Assistant Professor, Civil NITP</div>
@@ -137,11 +137,11 @@ export default function Teams() {
                         </div>
                     </div>
                 </div>
-                <div className="grid grid-cols-3 max-sm:grid-cols-1 mt-4 mb-4 ">
+                <div className="grid grid-cols-3 max-sm:grid-cols-1 mt-4 mb-4">
                     <div className=" col-span-1">
-                        <Image className="rounded-md h-[350px] w-[350px]" height={1000} width={1000} src={"/joseph.jpg"} alt="Loading.."/>
+                        <Image className="rounded-md h-[350px] w-[350px]" height={1000} width={1000} src={"/Joseph.jpg"} alt="Loading.."/>
                     </div>
-                    <div className=" col-span-2 flex justify-end pt-8">
+                    <div className=" col-span-2 flex justify-end pt-8 mx-sm:pt-0 mb-20">
                         <div className="w-[85%] flex flex-col max-sm:w-[100%]">
                             <div className="text-[20px] font-semibold">Dr. Joseph Tripura</div>
                             <div className="text-[15px] font-serif text-orange-800">Assistant Professor, Civil NITP</div>
@@ -150,11 +150,11 @@ export default function Teams() {
                     </div>
                 </div>
 
-                <div className="grid grid-cols-3 max-sm:grid-cols-1 mt-4 mb-2 ">
+                <div className="grid grid-cols-3 max-sm:grid-cols-1 mt-4 mb-2">
                     <div className=" col-span-1">
                         <Image className="rounded-md border h-[350px] w-[350px]" height={1000} width={1000} src={"/Satyajit.jpg"} alt="Loading.."/>
                     </div>
-                    <div className=" col-span-2 flex justify-end pt-8">
+                    <div className=" col-span-2 flex justify-end pt-8 mx-sm:pt-0 mb-20">
                         <div className="w-[85%] flex flex-col max-sm:w-[100%]">
                             <div className="text-[20px] font-semibold">Dr. Satyajit Mondal</div>
                             <div className="text-[15px] font-serif text-orange-800">Assistant Professor, Civil NITP</div>
