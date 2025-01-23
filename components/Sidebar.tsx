@@ -23,7 +23,7 @@ export default function Sidebar({ option }: SidebarProps) {
                     <button onClick={()=>router.push("/Author")} className="">Author&apos;s Corner</button>
                 </div>
                 <div className=" ">
-                    <button className="">Speakers</button>
+                    <button onClick={()=>router.push("/teams")} className="">Teams</button>
                 </div>
                 <div className=" ">
                     <button onClick={()=>router.push("/Venue")} className="">Venue</button>

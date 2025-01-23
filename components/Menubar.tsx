@@ -25,7 +25,7 @@ export default function Menubar({option , setoption} : {option : boolean, setopt
                     <button onClick={()=>router.push("/Author")} className=" hover:border-b-4 border-yellow-500 py-4">Author&apos;s Corner</button>
                 </div>
                 <div className="h-full text-white flex flex-col justify-center">
-                    <button className=" hover:border-b-4 border-yellow-500 py-4">Speakers</button>
+                    <button onClick={()=>router.push("/teams")} className=" hover:border-b-4 border-yellow-500 py-4">Teams</button>
                 </div>
                 <div className="h-full text-white flex flex-col justify-center">
                     <button onClick={()=>router.push("/Venue")} className=" hover:border-b-4 border-yellow-500 py-4">Venue</button>
