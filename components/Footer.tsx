@@ -48,7 +48,7 @@ export default function Footer(){
                 </div>
 
                 <div className="w-full h-full flex justify-end font-mono text-sm font-bold mt-6">
-                    <div className="h-full flex flex-col justify-end max-lg:text-[12px] max-sm:text-[10px]">Designed and Maintained by : Devraj Kumar</div>
+                    <div className="h-full flex flex-col justify-end max-lg:text-[12px] max-sm:text-[10px]">Designed and Maintained by : <a href="https://www.devrajkumar.me/" className="hover:underline" target="blank">Devraj Kumar</a></div>
                 </div>
             </div>
             <div className="bg-green-800 w-full text-center text-white text-sm">@ All right reserved</div>
