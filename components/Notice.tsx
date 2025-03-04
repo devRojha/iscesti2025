@@ -29,10 +29,10 @@ export default function Notice(){
                 <div className="text-2xl font-bold text-center p-2 font-serif">Important Dates</div>
                 <div className="h-[350px]  p-2 pt-4">
                     <ul className={`list-disc ml-4 space-y-2 `}>
-                    <li>Submission of Extended Abstract: <span className="italic text-blue-500">15th January 2025</span></li>
-                    <li>Acceptance of Abstract: Poster/Oral: <span className="italic text-blue-500">31 st January 2025</span></li>
-                    <li>Submission of Full-Length Paper: <span className="italic text-blue-500">1st March 2025</span></li>
-                    <li>Final Decision on Paper: <span className="italic text-blue-500">1st April 2025</span></li>
+                    <li>Submission of Full-Length Paper: <span className="italic text-blue-500">31st March 2025</span></li>
+                    <li>Notification of Acceptance: <span className="italic text-blue-500">21st April 2025</span></li>
+                    <li>Revised Paper Submission Deadline: <span className="italic text-blue-500">28th April 2025</span></li>
+                    <li>Final Notification Acceptance: <span className="italic text-blue-500">30th April 2025</span></li>
                     <li>Date of Conference: <span className="italic text-blue-500">14-16th May 2025</span></li>
                     </ul>
                 </div>
