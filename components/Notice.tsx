@@ -13,7 +13,7 @@ export default function Notice(){
         }
     },[col])
     return (
-        <div className="flex justify-center w-full p-4 bg-white text-black">
+        <div className="flex justify-between w-full p-4 bg-white text-black max-sm:flex-col max-sm:space-y-4">
             <div className="shadow-lg border rounded-md w-[400px] overflow-h-auto">
                 <div className="text-2xl font-bold text-center p-2 font-serif">Notice</div>
                 <div className="h-[350px]  p-3 pt-4">
@@ -29,11 +29,20 @@ export default function Notice(){
                 <div className="text-2xl font-bold text-center p-2 font-serif">Important Dates</div>
                 <div className="h-[350px]  p-2 pt-4">
                     <ul className={`list-disc ml-4 space-y-2 `}>
-                    <li>Submission of Full-Length Paper: <span className="italic text-blue-500">31st March 2025</span></li>
+                    <li>Submission of Full-Length Paper: <span className="italic text-blue-500">15th April 2025</span></li>
                     <li>Notification of Acceptance: <span className="italic text-blue-500">21st April 2025</span></li>
                     <li>Revised Paper Submission Deadline: <span className="italic text-blue-500">28th April 2025</span></li>
                     <li>Final Notification Acceptance: <span className="italic text-blue-500">30th April 2025</span></li>
                     <li>Date of Conference: <span className="italic text-blue-500">14-16th May 2025</span></li>
+                    </ul>
+                </div>
+            </div>
+            <div className="shadow-lg border rounded-md w-[400px] overflow-h-auto">
+                <div className="text-2xl font-bold text-center p-2 font-serif">Author Notice</div>
+                <div className="h-[350px]  p-3 pt-4">
+                    <ul className={`list-disc ml-4 space-y-2 `}>
+                    <li className={`${(col)? "text-blue-600" :"text-yellow-600"}`}>Select papers from the conference will be published by Springer as a proceedings book volume. Springer will conduct quality checks on the accepted papers and only papers that pass these checks will be published.</li>
+                    <li className={`${(col)? "text-blue-600" :"text-yellow-600"}`}>Springer Nature does not charge any money for publication of Non-Open Access content. Abstracts/extended abstracts and short papers (less than 4 pages) are not considered for publication.</li>
                     </ul>
                 </div>
             </div>

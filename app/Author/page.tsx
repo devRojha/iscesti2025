@@ -14,7 +14,7 @@ export default function Author() {
                 <div className="overflow-auto">
                     <div className="grid grid-cols-3 max-sm:w-[400px]">
                         <div className="col-span-2 border border-black px-2 py-1">Submission of Full-Length Paper:</div>
-                        <div className="col-span-1 border border-black px-2 py-1">31st March 2025</div>
+                        <div className="col-span-1 border border-black px-2 py-1">15th April 2025</div>
                         <div className="col-span-2 border border-black px-2 py-1">Notification of Acceptance:</div>
                         <div className="col-span-1 border border-black px-2 py-1">21st April 2025</div>
                         <div className="col-span-2 border border-black px-2 py-1">Revised Paper Submission Deadline:</div>
