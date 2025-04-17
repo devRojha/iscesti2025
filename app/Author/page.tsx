@@ -20,7 +20,7 @@ export default function Author() {
                         <div className="col-span-2 border border-black px-2 py-1">Revised Paper Submission Deadline:</div>
                         <div className="col-span-1 border border-black px-2 py-1">28th April 2025</div>
                         <div className="col-span-2 border border-black px-2 py-1">Final Notification Acceptance:</div>
-                        <div className="col-span-1 border border-black px-2 py-1">30th April 2025</div>
+                        <div className="col-span-1 border border-black px-2 py-1">20th April 2025</div>
                         <div className="col-span-2 border border-black px-2 py-1">Date of Conference:</div>
                         <div className="col-span-1 border border-black px-2 py-1">14-16th May 2025</div>
                     </div>

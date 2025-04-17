@@ -32,7 +32,7 @@ export default function Notice(){
                     <li>Submission of Full-Length Paper: <span className="italic text-blue-500">15th April 2025</span></li>
                     <li>Notification of Acceptance: <span className="italic text-blue-500">21st April 2025</span></li>
                     <li>Revised Paper Submission Deadline: <span className="italic text-blue-500">28th April 2025</span></li>
-                    <li>Final Notification Acceptance: <span className="italic text-blue-500">30th April 2025</span></li>
+                    <li>Final Notification Acceptance: <span className="italic text-blue-500">20th April 2025</span></li>
                     <li>Date of Conference: <span className="italic text-blue-500">14-16th May 2025</span></li>
                     </ul>
                 </div>
