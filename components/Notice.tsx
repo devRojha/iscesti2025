@@ -18,6 +18,7 @@ export default function Notice(){
                 <div className="text-2xl font-bold text-center p-2 font-serif">Notice</div>
                 <div className="h-[350px]  p-3 pt-4">
                     <ul className={`list-disc ml-4 space-y-2 underline `}>
+                    <li className={`${(col)? "text-blue-600" :"text-yellow-600"}`}><a href="https://drive.google.com/file/d/1VyESULdjttPhED1q3QEcRtchxsgOazS4/view?usp=drive_link" target="blank">Book of Abstract_ISCESTI 2025</a></li>
                     <li className={`${(col)? "text-blue-600" :"text-yellow-600"}`}><a href="/Results_250522_135248.pdf" target="blank">Best paper and Best Presentation</a></li>
                     <li className={`${(col)? "text-blue-600" :"text-yellow-600"}`}><a href="/ICESTI-2025.pptx" target="blank">Template of presentation (pptx)</a></li>
                     <li className={`${(col)? "text-blue-600" :"text-yellow-600"}`}><a href="/Schedule_of_Presentation_ISCESTI_2025.pdf" target="blank">Schedule of Presentation</a></li>
